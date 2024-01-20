@@ -27,51 +27,51 @@
             padding: 10px;
             text-align: center;
             font-weight: bold;
+            font-size: 18px; /* Added font-size to make it more bold */
         }
         
         td.first-column {
             padding: 10px;
             text-align: center;
             font-weight: bold;
+            display: inline-block; /* Changed display to inline-block */
+        }
+        
+        td {
+            padding: 5px 0; /* Adjusted padding to bring rows and columns closer */
         }
     </style>
 </head>
-<body style="padding-bottom: 500px;">
+<body>
 
-    <div class="careerbox">
+    <div class="careerbox" >
         <table>
             <tr>
                 <th class="heading">Career Path</th>
-                <th>Flowchart</th>
+                <th style="font-size: 18px;">Flowchart</th>
             </tr>
             <tr>
-                <td class="first-column">Engineer</td>
+                <td class="first-column">Engineer&#45;&gt;</td>
                 <td><a id="eng" class="btn btn-primary" href="./flowcharts/Engineer-flowchart.html" role="button" target="_blank">View Flowchart</a></td>
-            </tr>
-            <tr>
-                <td class="first-column">Doctor</td>
+            </tr><tr><!-- BEGIN: Remove space between rows -->
+                <td class="first-column">Doctor&#45;&gt;</td>
                 <td><a id="doc" class="btn btn-primary" href="./flowcharts/doctors-flowchart.html" role="button">View Flowchart</a></td>
-            </tr>
-            <tr>
-                <td class="first-column">Archaeologist</td>
+            </tr><tr>
+                <td class="first-column">Archaeologist&#45;&gt;</td>
                 <td><a id="arch" class="btn btn-primary" href="./flowcharts/Archaeologist-flowchart.html" role="button" target="_blank">View Flowchart</a></td>
-            </tr>
-            <tr>
-                <td class="first-column">Lawyer</td>
+            </tr><tr>
+                <td class="first-column">Lawyer&#45;&gt;</td>
                 <td><a id="law" class="btn btn-primary" href="./flowcharts/Lawyer-flowchart.html" role="button">View Flowchart</a></td>
-            </tr>
-            <tr>
-                <td class="first-column">Cardiologist</td>
+            </tr><tr>
+                <td class="first-column">Cardiologist&#45;&gt;</td>
                 <td><a id="heart" class="btn btn-primary" href="./flowcharts/Cardiologist-flowchart.html" role="button">View Flowchart</a></td>
-            </tr>
-            <tr>
-                <td class="first-column">Neurologist</td>
+            </tr><tr>
+                <td class="first-column">Neurologist&#45;&gt;</td>
                 <td><a id="brain" class="btn btn-primary" href="./flowcharts/neuro-flowchart.html" role="button">View Flowchart</a></td>
-            </tr>
-            <tr>
-                <td class="first-column">Astronomer</td>
+            </tr><tr>
+                <td class="first-column">Astronomer&#45;&gt;</td>
                 <td><a id="space" class="btn btn-primary" href="./flowcharts/Astronomer-flowchart.html" role="button">View Flowchart</a></td>
-            </tr>
+            </tr><!-- END: Remove space between rows -->
         </table>
     </div>
 
