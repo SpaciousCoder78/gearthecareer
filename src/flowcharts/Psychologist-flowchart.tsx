@@ -20,6 +20,11 @@ const mermaidList = [
 function Psychchart(){
     return(
         <div>
+            <head>
+                <title>
+                    Psychologist Path
+                </title>
+            </head>
             <h1>Psychologist Path</h1>
     <pre className="mermaid">
         {mermaidList}

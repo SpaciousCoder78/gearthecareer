@@ -19,6 +19,9 @@ const mermaidList = [
 function Neuroflow(){
     return(
         <div>
+            <head>
+                <title>Neurologist Path</title>
+            </head>
             <h1>Neurologist Path</h1>
     <pre className="mermaid">
         {mermaidList}

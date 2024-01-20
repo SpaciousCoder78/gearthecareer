@@ -20,6 +20,9 @@ const mermaidList = [
 function Busianalyst(){
     return(
         <div>
+            <head>
+                <title>Business Analyst Path</title>
+            </head>
             <h1>IT Business Analyst Path</h1>
     <pre className="mermaid">
         {mermaidList}

@@ -19,6 +19,9 @@ const mermaidList = [
 function Astroflowchart(){
         return (
                 <div>
+                    <head>
+                        <title>Astronomer Path</title>
+                    </head>
                         <h1>Astronomer Path</h1>
         <pre className="mermaid">
                 {mermaidList}
