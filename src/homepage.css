@@ -1,0 +1,38 @@
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+          }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color:rgb(211, 211, 211);
+    padding-bottom: 30px;
+    
+          }
+  
+    .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .top a {
+    margin: 5px;
+  }
+
+  body{
+    background-color: #007bff;
+  }
