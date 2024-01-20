@@ -6,7 +6,25 @@
     <title>Neurologist Path</title>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+      </script>
     <h1>Neurologist Path</h1>
+    <pre class="mermaid">
+        flowchart TD
+    A[Senior Secondary Education: 
+    BiPC]
+     --> B(Undergraduate Entrance Exam:
+        NEET, Eamcet)
+    B --> C{Degree Stream:
+        MBBS}
+    C -->|Masters Entrance Exam:
+        Neet-PG| D[MasterStream:
+        MD in Neurology, MBA in Healthcare]
+    
+   
+  
+</pre>
 </body>
 </html>
