@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Index/>
-      <Rooter/>
+  
     </>
   )
 }
