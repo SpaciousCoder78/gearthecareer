@@ -13,14 +13,14 @@ function Busianalyst(){
     <pre className="mermaid">
         <img src="https://media.discordapp.net/attachments/1198163202937200682/1198480820915150928/image.png?ex=65bf0f3e&is=65ac9a3e&hm=2c03d07df33633c51815897baed8515380c38e8935048d0064291323d85d215d&=&format=webp&quality=lossless&width=360&height=739"></img>
 </pre>
-<p>Key Skills needed for an IT Business Analyst are:</p>
+<p style={{ fontWeight: 'bold' }}>Key Skills needed for an IT Business Analyst are:</p>
     <ol>
       <li>Functional Analysis</li>
       <li>Business Analysis</li>
       <li>Project Management</li>
       <li>SQL</li>
     </ol>
-<p> Career Opportunities as IT Business Analyst are: </p>
+<p style={{ fontWeight: 'bold' }}> Career Opportunities as IT Business Analyst are: </p>
 <ol>
   <li>Business Analyst</li>
   <li>Data Analyst</li>
@@ -30,7 +30,7 @@ function Busianalyst(){
 
 </ol>
 <span className="rating">
-  <span className="star"><p> Gear the Careers Recommendation:4.5★</p></span>
+  <span className="star"><p style={{ fontWeight: 'bold' }}> Gear the Careers Recommendation:4.5★</p></span>
 </span>
         </div>
     );

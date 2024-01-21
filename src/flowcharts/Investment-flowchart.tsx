@@ -7,14 +7,14 @@ function Investflow(){
         
     
 </pre>
-<p>Key Skills needed for an Investment Banker are:</p>
+<p style={{ fontWeight: 'bold' }}>Key Skills needed for an Investment Banker are:</p>
     <ol>
       <li>Relationship Building Skills</li>
       <li>Business Analysis</li>
       <li>Open-mindedness</li>
       <li>Creativity and Discipline</li>
     </ol>
-<p> Career Opportunities as an Investment Banker are: </p>
+<p style={{ fontWeight: 'bold' }}> Career Opportunities as an Investment Banker are: </p>
 <ol>
   <li>Business Analyst</li>
   <li>Investment Associate</li>
@@ -24,7 +24,7 @@ function Investflow(){
 
 </ol>
 <span className="rating">
-  <span className="star"><p> Gear the Careers Recommendation:4.5★</p></span>
+  <span className="star"><p style={{ fontWeight: 'bold' }}> Gear the Careers Recommendation:4.5★</p></span>
 </span>
         </div>
     )
