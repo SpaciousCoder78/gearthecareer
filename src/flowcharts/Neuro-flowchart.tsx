@@ -4,14 +4,13 @@ mermaid.initialize({ startOnLoad: true });
 const mermaidList = [
     `
     flowchart TD
-    A[Senior Secondary Education: 
-    BiPC]
+    A[Senior Secondary Education: Sciences-Biology]
      --> B(Undergraduate Entrance Exam:
-        NEET, Eamcet)
-    B --> C{Degree Stream:
-        MBBS}
+        NEET, EAMCET and AIIMS MBBS Exam)
+    B --> C{Undergraduate Course:
+        MBBS or Bachelor of Surgery}
     C -->|Masters Entrance Exam:
-        Neet-PG| D[MasterStream:
+        NEET-PG,AIIMS-PG,DNB PDCET| D[MasterStream:
         MS in Neurology, Minor in Healthcare]
     `,
 ]

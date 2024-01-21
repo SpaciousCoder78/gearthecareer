@@ -7,12 +7,11 @@ const mermaidList = [
     A[Senior Secondary Education: 
     Any Stream]
      --> B(Undergraduate Entrance Exam:
-        CUET,University Entrance Exam)
-    B --> C{Bachelor's Degree in BA'H'psychology
-    or Applied Psychology
+        CUET,TISS BAT,IUET)
+    B --> C{Bachelors Degree in BA Psychology / Applied Psychology / B.Sc
       }
     C -->|Masters Entrance Exam:
-    JUET, DUET, CUET| D[M.Sc in clinical psychology]
+    TISS NET,IUET,CUSAT CAT| D[M.Sc in Clinical Psychology/Masters in Clinical Psychology]
     D -->E{M.Phil/Ph.D}
     `,
 ]
