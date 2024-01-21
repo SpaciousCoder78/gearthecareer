@@ -14,9 +14,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
     background-color:rgb(211, 211, 211);
-    padding-bottom: 30px;
+    width: 100%;
     
           }
   
@@ -35,4 +35,5 @@
 
   body{
     background-color: white;
-  }
+    display: inline-block;
+     }
