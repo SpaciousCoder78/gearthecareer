@@ -1,7 +1,7 @@
 import mermaid from 'mermaid';
 mermaid.initialize({ startOnLoad: true });
 
-function Civilflow(){
+function civilflow(){
   return(
     <div>
       <h1>Civil Services Path</h1>
@@ -34,4 +34,4 @@ function Civilflow(){
   );
 }
 
-export default Civilflow
+export default civilflow
