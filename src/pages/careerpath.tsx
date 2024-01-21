@@ -67,38 +67,38 @@ function Careerpath(){
                     </tr>
                     <tr>
                         <td className="first-column">Astronomer&#45;&#45;&gt;</td>
-                        <td><a id="astro" className="btn btn-primary" href="./flowcharts/Engineer-flowchart.html" role="button" target="_blank">View Flowchart</a></td>
+                        <td><button id="astro" className="btn btn-primary" onClick={() => handleComponentClick('Astronomer')}>View Flowchart</button></td>
                     </tr>
                     <tr>
                         <td className="first-column">Business Analyst&#45;&#45;&gt;</td>
-                        <td><a id="busybutton" className="btn btn-primary" href="./flowcharts/doctors-flowchart.html" role="button">View Flowchart</a></td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('BusinessAnalyst')}>View Flowchart</button></td>
                     </tr>
                     <tr>
                         <td className="first-column">Civil Services&#45;&#45;&gt;</td>
-                        <td><a id="civ" className="btn btn-primary" href="./flowcharts/Archaeologist-flowchart.html" role="button" target="_blank">View Flowchart</a></td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('Civilservice')}>View Flowchart</button></td>
                     </tr>
                     <tr>
-                        <td className="first-column">Content Writerr&#45;&#45;&gt;</td>
-                        <td><button id="law" className="btn btn-primary" href="./flowcharts/Lawyer-flowchart.html" role="button">View Flowchart</button></td>
+                        <td className="first-column">Content Writer&#45;&#45;&gt;</td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('ContentWriter')}>View Flowchart</button></td>
                     </tr>
                     <tr>
                         <td className="first-column">Digital Marketer&#45;&#45;&gt;</td>
-                        <td><a id="heart" className="btn btn-primary" href="./flowcharts/Cardiologist-flowchart.html" role="button">View Flowchart</a></td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('DigitalMarketer')}>View Flowchart</button></td>
                     </tr>
                     <tr>
                         <td className="first-column">Neurologist&#45;&#45;&gt;</td>
-                        <td><a id="brain" className="btn btn-primary" href="./flowcharts/neuro-flowchart.html" role="button">View Flowchart</a></td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('Neurologist')}>View Flowchart</button></td>
                     </tr>
                     <tr>
                         <td className="first-column">Product Developer&#45;&#45;&gt;</td>
-                        <td><a id="space" className="btn btn-primary" href="./flowcharts/Astronomer-flowchart.html" role="button">View Flowchart</a></td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('Productdev')}>View Flowchart</button></td>
                     </tr>
                     <tr>
                         <td className="first-column">Psychologist&#45;&#45;&gt;</td>
-                        <td><a id="space" className="btn btn-primary" href="./flowcharts/Astronomer-flowchart.html" role="button">View Flowchart</a></td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('Psychologist')}>View Flowchart</button></td>
                     </tr>
                 </tbody>
-            </table>
+            </table> 
         </div>
     );
 }
