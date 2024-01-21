@@ -1,7 +1,6 @@
 
 import './App.css'
 import Index from './pages/homepage'
-import Rooter from './rooter'
 //import Astroflowchart from './flowcharts/Astronomer-flowchart'
 //import Busianalyst from './flowcharts/BusinessAnalyst-flowchart'
 //import Factsheet from './factsheet'
