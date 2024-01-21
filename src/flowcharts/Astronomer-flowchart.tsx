@@ -12,7 +12,7 @@ function Astroflowchart(){
         <pre className="mermaid">
                 <img src="https://media.discordapp.net/attachments/1198163202937200682/1198478453251522590/image.png?ex=65bf0d09&is=65ac9809&hm=81a05f67be89c7e279fc141bc4114dec220bd7858e473bc6bfae5c74d8f93efd&=&format=webp&quality=lossless&width=411&height=741"></img>
 </pre>
-<p> Key Skills needed for a Career in Astronomy are: </p>
+<p style={{ fontWeight: 'bold' }}> Key Skills needed for a Career in Astronomy are: </p>
         <ol> 
             <li>Critical Thinking</li>
             <li>Continuous Learning</li>
@@ -20,7 +20,7 @@ function Astroflowchart(){
             <li>Complex Problem Solving</li>
             <li>Social Perceptiveness</li>
         </ol>
-<p> Career Opportunities in Astronomy are: </p>
+<p style={{ fontWeight: 'bold' }}> Career Opportunities in Astronomy are: </p>
 <ol>
     <li>Astronomy Professor</li>
     <li>Astrophysicist</li>
@@ -32,7 +32,7 @@ function Astroflowchart(){
 </ol>
 
 <span className="rating">
-    <span className="star"><p> Gear the Careers Recommendation:4.5★</p></span>
+    <span className="star"><p style={{ fontWeight: 'bold' }}> Gear the Careers Recommendation:4.5★</p></span>
 </span>
                 </div>
         );

@@ -7,7 +7,8 @@ function about(){
             <br></br>
             <p>Gear The Career is a website developed by team BreachedBugs during MLH FrostHacks'24. </p>
             <br></br>
-            <p>The team consisted of 4 members namely; Aryan Karamtoth, Yogesh Manne, Gilla Susheel & U Praneeth Kumar</p>
+        
+            <p style={{fontSize: "medium"}}>The team consisted of 4 members namely;<span style={{fontWeight: 'bold'}}>Aryan Karamtoth, Yogesh Manne, Gilla Susheel & U Praneeth Kumar</span> </p>
             
         </div>
     );
