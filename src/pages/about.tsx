@@ -9,11 +9,7 @@ function about(){
             <br></br>
         
             <p style={{fontSize: "medium"}}>The Team consists of 4 members namely;<span style={{fontWeight: 'bold'}}>Aryan Karamtoth, Yogesh Manne, Gilla Susheel & U Praneeth Kumar</span> </p>
-            <p><br>Connect with us on LinkedIn</br></p>
-                <a href="https://www.linkedin.com/in/susheel-nani-ab471124a/" target="_blank">Susheel Gilla</a>
-                <a href="https://www.linkedin.com/in/u-praneeth-kumar-376a2a259/" target="_blank">U Praneeth Kumar</a>
-                <a href="https://www.linkedin.com/in/spaciouscoder78/" target="_blank">Aryan K</a>
-                <a href="https://www.linkedin.com/in/manneyogesh/" target="_blank"> Yogesh Manne </a>
+           
                         
         </div>
     );
