@@ -11,7 +11,7 @@ import Psychchart from "../flowcharts/Psychologist-flowchart";
 import Caflow from "../flowcharts/Ca-flowchart";
 import Fashionflow from "../flowcharts/Fashion-flowchart";
 import Graphicflow from "../flowcharts/Graphic-flowchart";
-import Investflow from "../flowcharts/investment-flowchart";
+import Investflow from "../flowcharts/Investment-flowchart";
 
 const styles = {
     careerbox: {
