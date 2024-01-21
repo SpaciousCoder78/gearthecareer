@@ -1,4 +1,4 @@
-import "./careerpath.css";
+import "./stylesheets/careerpath.css";
 const styles = {
     careerbox: {
         display: "flex",
