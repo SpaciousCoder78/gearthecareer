@@ -1,0 +1,39 @@
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+          }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color:rgb(211, 211, 211);
+    width: 100%;
+    
+          }
+  
+    .top {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .top a {
+    margin: 5px;
+  }
+
+  body{
+    background-color: white;
+    display: inline-block;
+     }
