@@ -1,20 +1,7 @@
 import mermaid from 'mermaid';
 mermaid.initialize({ startOnLoad: true });
 
-const mermaidList = [
-    `
-    flowchart TD
-    A[Senior Secondary Education: 
-    Any Stream]
-     --> B(Undergraduate Entrance Exam:
-        CUET,TISS BAT,IUET)
-    B --> C{Bachelors Degree in BA Psychology / Applied Psychology / B.Sc
-      }
-    C -->|Masters Entrance Exam:
-    TISS NET,IUET,CUSAT CAT| D[M.Sc in Clinical Psychology/Masters in Clinical Psychology]
-    D -->E{M.Phil/Ph.D}
-    `,
-]
+
 
 function Psychchart(){
     return(
@@ -26,7 +13,7 @@ function Psychchart(){
             </head>
             <h1>Psychologist Path</h1>
     <pre className="mermaid">
-        {mermaidList}
+        <img src="https://media.discordapp.net/attachments/1198163202937200682/1198486602553512036/image.png?ex=65bf14a0&is=65ac9fa0&hm=0b4afd07701f262b06d6b2398c2ffc6c8fa7c75be620f9811d2958d8ad94f282&=&format=webp&quality=lossless&width=385&height=741"></img>
     
 </pre>
 <p> Key Skills needed for a Career in Psychologist are: </p>
@@ -43,11 +30,11 @@ function Psychchart(){
   <li>Brain Science and cognitive psychologist</li>
   <li>Clinical Psychologist</li>
   <li>Psychologists</li>
-
+  <li>Motivators and many more..</li>
 
 </ol>
 <span className="rating">
-  <span className="star">Gear the Careers Recomendation-4.1★</span>
+  <span className="star">Gear the Careers Recomendation-4.5★</span>
 </span>
         </div>
     );

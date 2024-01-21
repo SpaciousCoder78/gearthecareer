@@ -1,21 +1,7 @@
 import mermaid from 'mermaid';
 mermaid.initialize({ startOnLoad: true });
 
-const mermaidList = [
-    `
-    flowchart TD
-    A[Senior Secondary Education: 
-    Sciences-PCM]
-     --> B(Undergraduate Entrance Exam:
-    JEE,EAMCET,PESSAT,APIIT NAT 
-    and many more.. )
-    B --> C{Undergrad Courses: BsC, BCA,BBA, BTech or any other course
-      }
-    C -->|Masters Entrance Exam:
-       CAT,MAT,UPSEE,GMAT and many more..| D[PostGrad Courses: MBA-IT,MBA_Business Analytics,MSc]
-    
-    `,
-]
+
 
 function Busianalyst(){
     return(
@@ -25,7 +11,7 @@ function Busianalyst(){
             </head>
             <h1>IT Business Analyst Path</h1>
     <pre className="mermaid">
-        {mermaidList}
+        <img src="https://media.discordapp.net/attachments/1198163202937200682/1198480820915150928/image.png?ex=65bf0f3e&is=65ac9a3e&hm=2c03d07df33633c51815897baed8515380c38e8935048d0064291323d85d215d&=&format=webp&quality=lossless&width=360&height=739"></img>
 </pre>
 <p>Key Skills needed for an IT Business Analyst are:</p>
     <ol>

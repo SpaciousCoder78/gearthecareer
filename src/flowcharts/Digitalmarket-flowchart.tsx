@@ -1,25 +1,14 @@
 import mermaid from 'mermaid';
 mermaid.initialize({ startOnLoad: true });
 
-const mermaidList = [
-    `
-    flowchart TD
-    A[Senior Secondary Education: 
-    Any Stream]
-     --> B(Undergraduate Entrance Exam: Depends on the Course taken)
-    B --> C{Bachelors Degree in any field- BBA,BA,BSc,B.Arch,BTech and many more..
-      }
-    C -->|Masters Entrance Exam:
-      CAT,XAT,IBSAT | D[Masters Degree in Digital Marketing]
-    `,
-]
+
 
 function digiMarketFlow(){
     return(
         <div>
              <h1>Digital Marketing Path</h1>
     <pre className="mermaid">
-        {mermaidList}
+        <img src="https://media.discordapp.net/attachments/1198163202937200682/1198484463580090398/image.png?ex=65bf12a2&is=65ac9da2&hm=7005baf0bc729d6d4bc8bea58367f84aa2de1b9c0347e96e98a2da3810839925&=&format=webp&quality=lossless&width=508&height=741"></img>
 </pre>
 <p> Key Skills needed for a Career in Digital Marketing are: </p>
     <ol> 
