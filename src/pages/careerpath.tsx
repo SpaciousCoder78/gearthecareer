@@ -8,6 +8,10 @@ import DigiMarketFlow from "../flowcharts/Digitalmarket-flowchart";
 import Neuroflow from "../flowcharts/Neuro-flowchart";
 import Productdevflow from "../flowcharts/Productdev-flowchart";
 import Psychchart from "../flowcharts/Psychologist-flowchart";
+import Caflow from "../flowcharts/Ca-flowchart";
+import Fashionflow from "../flowcharts/Fashion-flowchart";
+import Graphicflow from "../flowcharts/Graphic-flowchart";
+import Investflow from "../flowcharts/investment-flowchart";
 
 const styles = {
     careerbox: {
@@ -58,6 +62,10 @@ function Careerpath(){
             {showComponent === 'Neurologist' && <Neuroflow/>}
             {showComponent === 'Productdev' && <Productdevflow/>}
             {showComponent === 'Psychologist' && <Psychchart/>}
+            {showComponent === 'CA' && <Caflow/>}
+            {showComponent === 'FD' && <Fashionflow/> }
+            {showComponent === 'GD' && <Graphicflow/>}
+            {showComponent === 'IB' && <Investflow/>}
 
             <table style={styles.table}>
                 <tbody style={styles.body}>
@@ -96,6 +104,22 @@ function Careerpath(){
                     <tr>
                         <td className="first-column">Psychologist&#45;&#45;&gt;</td>
                         <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('Psychologist')}>View Flowchart</button></td>
+                    </tr>
+                    <tr>
+                        <td className="first-column">Charter Accountant&#45;&#45;&gt;</td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('CA')}>View Flowchart</button></td>
+                    </tr>
+                    <tr>
+                        <td className="first-column">Fashion Designer&#45;&#45;&gt;</td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('FD')}>View Flowchart</button></td>
+                    </tr>
+                    <tr>
+                        <td className="first-column">Graphic Designer&#45;&#45;&gt;</td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('GD')}>View Flowchart</button></td>
+                    </tr>
+                    <tr>
+                        <td className="first-column">Investment Banker&#45;&#45;&gt;</td>
+                        <td><button id="busybutton" className="btn btn-primary" onClick={() => handleComponentClick('IB')}>View Flowchart</button></td>
                     </tr>
                 </tbody>
             </table> 
